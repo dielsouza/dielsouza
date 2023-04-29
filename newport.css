@@ -1,0 +1,205 @@
+body {
+    background-color: rgba(0, 0, 255, 0.671);
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+
+.document-cartao {
+    background-image: linear-gradient(to right, rgb(0, 81, 255), rgba(189, 20, 20, 0.815)); 
+    position: absolute;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;                                /*centralizado*/
+    height: 380px;
+    width: 680px;
+    border-radius: 20px;
+    
+}
+                            /* header */
+ header {
+    border-collapse: inherit;
+    border-bottom: 1px solid black;
+    position: relative;
+    padding: 0px 10px; /* espaceamento externo */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* alinhamento de items*/
+    
+}
+
+header .logo-header {
+    
+    color: rgb(0, 255, 106);
+    font-size: 40px;
+
+}
+
+
+.invisible {
+    position: relative;
+    left: 44px;
+    width: 130px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.068);
+}
+
+
+header .links-header {
+    display: flex;
+}
+
+header .links-header ul {
+    display: flex; 
+
+}
+
+
+header .links-header li {
+
+    font-size: 25px;
+    list-style-type: none;
+  
+} 
+
+header .links-header li :hover {
+    border-radius: 100px;
+    transition: 0.6s all;
+    color: rgb(0, 255, 221);
+    background-color: rgba(140, 144, 173, 0.397);
+
+
+}
+
+header .links-header a {
+    padding: 12px;
+    color: rgba(9, 255, 0, 0.74);
+    text-decoration: none;
+    
+}
+
+
+
+                                /* section */
+
+
+section {
+    justify-content:space-between;
+    display: flex;
+    padding: 15px;
+    padding-bottom: 10px;
+    
+}
+
+section .section-sobre {
+    font-size: 25px;
+    font-family: 'Changa One', cursive;
+    
+}
+
+section ul {
+    text-align: center;
+    padding-left: 0px;
+    line-height: 15px;
+    display: block;             
+    flex-direction: column;
+    
+}
+
+
+section li {
+   
+    color: rgba(65, 43, 43, 0.877);
+    font-weight: 700;
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+section .section-img  {
+    margin: 0px; 
+    position: relative;
+    text-align: center;
+}
+
+section .section-img img {
+    width: 200px;
+}
+
+section .section-img h1 {
+    color: rgba(65, 43, 43, 0.877);
+    font-family: 'Changa One', cursive;
+    font-weight: 50;
+    font-size: 28px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 100;
+    font-family: 'Changa One', cursive;
+    color: rgba(65, 43, 43, 0.877);
+}
+   
+                   /* footer */
+footer .img-acesso {
+    justify-content: end;
+    text-align: center;
+}
+
+
+
+footer .img-acesso img {
+    position: relative;
+    width: 30px;
+    padding: 0px 10px;
+}
+
+
+
+                        /* bol */
+
+.b1 {
+    position: relative;
+    left: 250px;
+    top: 10px;
+    background-color: rgba(223, 9, 9, 0.808);
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: rgba(0, 0, 0, 0.329) 12px 12px 12px 12px;
+    
+
+}
+
+.b2 {
+    position: relative;
+    left: 900px;
+    top: 200px;
+    background-color: rgb(255, 0, 149);
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: rgba(0, 0, 0, 0.329) 12px 12px 12px 12px;
+}
+
+.b3 {
+    position: relative;
+    display: block;
+    left: 100px;
+    bottom: 30px;
+    background-color: rgba(255, 175, 1, 0.5);
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    box-shadow: rgba(0, 0, 0, 0.329) 12px 12px 12px 12px;
+}
+
+h6 {
+    color: rgba(0, 0, 0, 0.699);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
